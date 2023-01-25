@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petrona&display=swap');
+
+.menuItem {
+    color: white;
+    /*font-family: 'Actor', sans-serif;*/
+    letter-spacing: 0.305em;
+    font-size: 14px;
+}
+
+.headerItem {
+    color: white;
+}
+
+.navBordered {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.textoSlider {
+    font-family: 'Petrona', serif;
+}
+.brandText {
+    font-family: 'Petrona', serif;
+    letter-spacing: 0.305em;
+    color: white;
+}
+/*ESTILOS DEL HEADER CUANDO SE HACE SCROLL*/
+.bgFilled {
+    background-color: white;
+}
+
+.bgFilled .headerItem {
+    color: black !important;
+}
+
+.bgFilled .menuItem {
+    color: black !important;
+}
+
+.bgFilled .navBordered {
+    border-bottom: 1.5px solid #000000;
+}
+
+.sliderShadow {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.39);
+}
+
+@media screen and (max-width: 800px) {
+    .imageSlider1 {
+        content: url("Images/MobileBanner1.jpg");
+    }
+    #categorias{
+        display: none;
+    }
+    .carousel-indicators{
+        margin-bottom: 0px !important;
+    }
+    .carousel-caption{
+        padding-bottom: 0px !important;
+    }
+
+    .navbar-collapse{
+        background-color: white;
+    }
+    .headerItem{
+        color: #000000;
+    }
+    nav .container{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .brandText{
+        margin-left: 12px;
+    }
+}

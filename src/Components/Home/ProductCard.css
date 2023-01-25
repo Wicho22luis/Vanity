@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Petrona&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+
+.productContainer{
+    padding: 0px !important;
+    margin: 10px !important;
+}
+.textPetrona{
+    font-family: 'Libre Bodoni', serif;
+  }
+
+.productPrice{
+    font-size: 24px !important;
+}
+
+.productDescription{
+    color: darkgray;
+    font-size: 12px;
+}
+.ImageContainer{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.share{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.fav{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.productCardContainer{
+    padding: 0px !important;
+}

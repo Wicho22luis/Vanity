@@ -1,0 +1,30 @@
+.imageBanner{
+    width: 100%;
+}
+.textoInformativo{
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50%;
+    font-size: 18px;
+    text-align: right;
+}
+.infoBannerContainer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .imageBanner{
+        content: url('./Images/InfoBanner1Mobile.jpg');
+    }
+
+    .textoInformativo{
+        font-size: 15px;
+        top: 30px;
+    }
+}

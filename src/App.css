@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Petrona&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.notificationBar{
+  background-color: #292929;
+  color: white;
+  padding: 0px !important;
+  width: 100%;
+  margin: 0px !important;
+}
+.notificationText{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0px !important;
+  font-family: 'Petrona', serif;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 800px) {
+  .notificationText{
+    font-size: 11px;
+  }
+}
+.textPetrona{
+  font-family: 'Petrona', serif;
 }

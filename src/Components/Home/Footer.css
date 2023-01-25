@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+.footerContainer{
+    background-color: #EEEEEE;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+.footerText{
+    color: #5B5B5B;
+} 
+.footerParagraph{
+   font-size: 14px;
+}
+.footerHead{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Actor', sans-serif;
+}
+.footerColContainer{
+    padding: 20px;
+}
+
+.separadorFooter{
+    margin-bottom: 20px;
+}
+.copyrightText{
+margin-bottom: 10px !important;
+}
