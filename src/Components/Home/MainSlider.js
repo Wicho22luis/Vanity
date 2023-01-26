@@ -9,7 +9,7 @@ function Slider() {
             <Carousel.Item>
                 <img className="d-block w-100 imageSlider1" src={Banner} alt="First slide"/>
                 <Carousel.Caption className='captionContainer'>
-                    <h1 className='textoSlider'>Sortija en ORO</h1>
+                    <h1 className='textoSlider'>TE AMO MI NIÑA</h1>
                     <h4 className='textoSlider'>con incrustaciones de diamantes</h4>
                     <Button variant="light" className='textoSlider btnSlider'>Conoce más aquí</Button>
                 </Carousel.Caption>
