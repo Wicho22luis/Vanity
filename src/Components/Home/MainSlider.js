@@ -18,7 +18,7 @@ function Slider() {
                 <img className="d-block w-100 imageSlider1" src={Banner}alt="Second slide" />
 
                 <Carousel.Caption>
-                    <h1 className='textoSlider'>Sortija en ORO</h1>
+                    <h1 className='textoSlider'>CASATE CONMIGO</h1>
                     <h4 className='textoSlider'>con incrustaciones de diamantes</h4>
                     <Button variant="light" className='textoSlider'>Conoce más aquí</Button>
                 </Carousel.Caption>
