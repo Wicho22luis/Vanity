@@ -23,5 +23,19 @@
 <script src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js" crossorigin></script>
 <script src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>var Alert = ReactBootstrap.Alert;</script>
+<script>
+   document.body.onload = function () {
+        var nav = document.getElementById('headerContainer');
+        var brand = document.querySelector('#BrandText');
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                nav.classList.add('bgFilled', 'shadow');
+                brand.style.color = ("black")
+            } else {
+                nav.classList.remove('bgFilled', 'shadow');
+                brand.style.color = ("white")
+            }
+        })
+    }
+</script>
 </html>
