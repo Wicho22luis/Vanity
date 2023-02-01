@@ -54,6 +54,9 @@
     .imageSlider1 {
         content: url("Images/MobileBanner1.jpg");
     }
+    .imageSlider1 {
+        content: url("Images/MobileBanner2.jpg");
+    }
 
     #categorias {
         display: none;

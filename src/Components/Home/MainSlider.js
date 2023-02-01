@@ -15,7 +15,7 @@ function Slider() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img className="d-block w-100 imageSlider1" src={Banner}alt="Second slide" />
+                <img className="d-block w-100 imageSlider2" src={Banner}alt="Second slide" />
 
                 <Carousel.Caption>
                     <h1 className='textoSlider'>Sortija en ORO</h1>
