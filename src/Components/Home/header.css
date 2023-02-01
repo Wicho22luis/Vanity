@@ -19,11 +19,16 @@
 .textoSlider {
     font-family: 'Petrona', serif;
 }
+
 .brandText {
     font-family: 'Petrona', serif;
     letter-spacing: 0.305em;
     color: white;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
 }
+
 /*ESTILOS DEL HEADER CUANDO SE HACE SCROLL*/
 .bgFilled {
     background-color: white;
@@ -49,27 +54,33 @@
     .imageSlider1 {
         content: url("Images/MobileBanner1.jpg");
     }
-    #categorias{
+
+    #categorias {
         display: none;
     }
-    .carousel-indicators{
+
+    .carousel-indicators {
         margin-bottom: 0px !important;
     }
-    .carousel-caption{
+
+    .carousel-caption {
         padding-bottom: 0px !important;
     }
 
-    .navbar-collapse{
+    .navbar-collapse {
         background-color: white;
     }
-    .headerItem{
+
+    .headerItem {
         color: #000000;
     }
-    nav .container{
+
+    nav .container {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
-    .brandText{
+
+    .brandText {
         margin-left: 12px;
     }
 }

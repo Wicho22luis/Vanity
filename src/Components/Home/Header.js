@@ -3,6 +3,7 @@ import './header.css'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Whatsapp } from 'react-bootstrap-icons';
 
 function Header() {
     document.body.onload = function () {
@@ -27,11 +28,11 @@ function Header() {
                         <Navbar.Brand href="#home" className='brandText' id='BrandText'>Vanity</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="me-auto">
+                            <Nav className="ms-auto">
                                 <Nav.Link href="#home" className='headerItem'>Home</Nav.Link>
                                 <Nav.Link href="#link" className='headerItem'>Link</Nav.Link>
                                 <Nav.Link href="#link" className='headerItem'>Link</Nav.Link>
-                                <Nav.Link href="#link" className='headerItem'>Link</Nav.Link>
+                                <Nav.Link href="#link" className='headerItem'><Whatsapp color='white' size={25}></Whatsapp></Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
