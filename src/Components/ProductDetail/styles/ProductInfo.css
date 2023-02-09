@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Petrona&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+.menuItemDark {
+    color: black;
+    /*font-family: 'Actor', sans-serif;*/
+    letter-spacing: 0.305em;
+    font-size: 14px;
+}
+
+.headerItemDark {
+    color: black;
+}
+.brandTextDark {
+    font-family: 'Petrona', serif;
+    letter-spacing: 0.305em;
+    color: black;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+.navBorderedDark {
+    border-bottom: 1px solid #000000;
+}
+
+.blackLink {
+    color: gray;
+}
+.iconContainer{
+    text-align: end !important;
+}
+.dropDownContainer{
+    text-align: start !important;
+}
+.buyNowBtn {
+    border-radius: 3px !important;
+    width: 50%;
+    font-family: 'Petrona', serif;
+}
+.dropdownBtn{
+    padding: 0px !important;
+}
+.mainImage {
+    width: 80%;
+}
+.secondaryImage{
+    width: 80%;
+}
+.productTitle {
+    font-family: 'Petrona', serif;
+    letter-spacing: 0.265em;
+    font-weight: 700;
+    text-align: start;
+}
+.productDescription{
+    color: gray;
+    font-family: 'Actor', sans-serif;
+    font-size: 18px;
+    text-align: justify !important;
+}
+.productPrice{
+    font-family: 'Petrona', serif;
+}
+.buyBtnContainer {
+    justify-content: start;
+    margin-top: 15px;
+}
+.secondaryImageContainer{
+    padding: 0px !important;
+}
+.dataContainer{margin-top: 50px;}
+
+.noPaddingCol{
+    padding: 0px !important;
+}
+@media screen and (max-width: 800px) {
+
+    .mainImage {
+        width: 100%;
+    }
+    .productTitle {
+        font-size: 30px;
+        text-align: center;
+    }
+    .buyBtnContainer {
+        justify-content: center;
+    }
+    .secondaryImage{
+        width: 85%;
+    }
+    .dataContainer{
+        margin-top: 20px;
+    }
+    .buyNowBtn {
+        border-radius: 3px !important;
+        width: 80%;
+        font-size: 22px;
+    }
+    .parentContainer{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .productPrice{
+        font-size: 36px !important;
+    }
+    .iconContainer{
+       display: flex;
+       justify-content: end;
+       align-items: center;
+    }
+    .noMarginText{
+        margin: 0px !important;
+    }
+}

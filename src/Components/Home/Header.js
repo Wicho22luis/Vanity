@@ -6,7 +6,19 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Whatsapp } from 'react-bootstrap-icons';
 
 function Header() {
-   
+    document.body.onload = function () {
+        var nav = document.querySelector('#headerContainer');
+        var brand = document.querySelector('#BrandText');
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                nav.classList.add('bgFilled', 'shadow');
+                brand.style.color = ("black");
+            } else {
+                nav.classList.remove('bgFilled', 'shadow');
+                brand.style.color = ("white");
+            }
+        })
+    }
     return (
         <>
             <div className='fixed-top' id='headerContainer'>

@@ -6,13 +6,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Share, Heart } from 'react-bootstrap-icons';
 import { Container } from 'react-bootstrap';
+import {Link} from 'react-router-dom'
 
 function ProductCards() {
   return (
     <> <Container fluid>
       <Row>
         <Col md={4} xs={6} lg={3} className='productCardContainer'>
-          <Card className='productContainer'>
+            <Card className='productContainer'>
             <div className='ImageContainer'>
               <Card.Img variant="top" src={Prod1} />
               <Share className='share' color='gray' size={25}></Share>
@@ -22,7 +23,7 @@ function ProductCards() {
               <Card.Title >Anillo de Plata</Card.Title>
               <Card.Text className='productDescription'>Anillo de plata 925 con incrustaciones en zirconia</Card.Text>
               <Card.Text className='textPetrona productPrice'>$450.00 mxn</Card.Text>
-              <Button variant="dark" className='textPetrona'>Comprar ahora</Button>
+              <Button as={Link} to='/product' variant="dark" className='textPetrona'>Comprar ahora</Button>
             </Card.Body>
           </Card>
         </Col>

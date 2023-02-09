@@ -1,5 +1,5 @@
 document.body.onload = function () {
-    var nav = document.getElementById('headerContainer');
+    var nav = document.querySelector('#headerContainer');
     var brand = document.querySelector('#BrandText');
     window.addEventListener('scroll', function () {
         if (window.pageYOffset > 100) {

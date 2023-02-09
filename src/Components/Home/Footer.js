@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import { Instagram, Facebook, Whatsapp } from 'react-bootstrap-icons';
-import './Footer.css'
+import './styles/Footer.css'
 
 //IMPORTS PARA SUSCRIPCION
 import Button from 'react-bootstrap/Button';
